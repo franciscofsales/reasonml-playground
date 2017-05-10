@@ -1,0 +1,11 @@
+# ninja log v5
+0	85	0	src/root/page.mlast	2e24280a5d467ec5
+2	87	0	src/root/root.mlast	818c7551017a7009
+85	104	0	src/root/page.mlast.d	2f49248aa708a9fa
+88	107	0	src/root/root.mlast.d	fcf59d4d36e6060a
+0	47	0	src/root/page.cmj	89faaec1b8820eee
+0	47	0	/Users/franciscosales/Development/research/react/examples/reasonml-example/lib/js/src/root/page.js	89faaec1b8820eee
+0	47	0	src/root/page.cmi	89faaec1b8820eee
+47	79	0	src/root/root.cmj	c2629cce1acd003
+47	79	0	/Users/franciscosales/Development/research/react/examples/reasonml-example/lib/js/src/root/root.js	c2629cce1acd003
+47	79	0	src/root/root.cmi	c2629cce1acd003

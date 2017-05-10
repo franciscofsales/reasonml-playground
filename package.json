@@ -1,0 +1,32 @@
+{
+  "name": "reasonml-react-playground",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "bsb -make-world -w",
+    "build": "webpack -w",
+    "clean": "bsb -clean-world"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/franciscofsales/reasonml-react-playground.git"
+  },
+  "author": "franciscofsales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/franciscofsales/reasonml-react-playground/issues"
+  },
+  "homepage": "https://github.com/franciscofsales/reasonml-react-playground#readme",
+  "devDependencies": {
+    "bs-platform": "^1.7.3",
+    "webpack": "^2.5.1"
+  },
+  "dependencies": {
+    "bs-director": "^0.0.1",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4",
+    "reason-react": "^0.1.3"
+  }
+}
