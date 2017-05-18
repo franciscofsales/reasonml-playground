@@ -1,1 +1,1 @@
-ReactDOMRe.renderToElementWithId <Page message="My first react-reason shit!" /> "index";
+ReactDOMRe.renderToElementWithId <Page message="My first react-reason shit!" /> "root";

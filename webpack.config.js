@@ -8,7 +8,7 @@ const stats = {
 
 module.exports = [
   {
-    entry: './lib/js/src/index.js',
+    entry: './lib/js/src',
     output: {
       filename: 'bundle.js',
       path: join(__dirname, 'dist'),
