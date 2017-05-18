@@ -6,8 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "bsb -make-world -w",
-    "build": "webpack -w",
-    "clean": "bsb -clean-world"
+    "dev": "npm-run-all --parallel dev:*",
+    "dev:bsb": "yarn run build:bsb -- -w",
+    "dev:webpack": "webpack-dev-server -w",
+    "build": "npm-run-all build:*",
+    "build:bsb": "bsb -make-world",
+    "build:webpack": "webpack -p",
+    "clean": "npm-run-all clean:*",
+    "clean:bsb": "bsb -clean-world",
+    "clean:project": "rimraf dist lib .merlin 'src/**/*.js'"
   },
   "repository": {
     "type": "git",
@@ -21,7 +28,11 @@
   "homepage": "https://github.com/franciscofsales/reasonml-react-playground#readme",
   "devDependencies": {
     "bs-platform": "^1.7.3",
-    "webpack": "^2.5.1"
+    "npm-run-all": "^4.0.2",
+    "rimraf": "^2.6.1",
+    "webpack": "^2.5.1",
+    "webpack-dev-server": "^2.4.5",
+    "webpack-html-plugin": "^0.1.1"
   },
   "dependencies": {
     "bs-director": "^0.0.1",

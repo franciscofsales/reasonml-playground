@@ -10,6 +10,4 @@ S /Users/franciscosales/Development/research/react/examples/reasonml-example/nod
 B /Users/franciscosales/Development/research/react/examples/reasonml-example/node_modules/bs-director/lib/ocaml
 S src
 B lib/bs/src
-S src/root
-B lib/bs/src/root
 ####BSB GENERATED: NO EDIT}

@@ -1,11 +1,27 @@
-const path = require('path');
+const HtmlPlugin = require('webpack-html-plugin')
+const join = require('path').join
 
-module.exports = {
-  entry: {
-    root: './lib/js/src/root/root.js',
+const stats = {
+  chunks: false,
+  modules: false,
+}
+
+module.exports = [
+  {
+    entry: './lib/js/src',
+    output: {
+      filename: 'bundle.js',
+      path: join(__dirname, 'dist'),
+      publicPath: '/',
+    },
+    plugins: [
+      new HtmlPlugin({
+        template: './index.html',
+      }),
+    ],
+    stats,
+    devServer: {
+      stats,
+    },
   },
-  output: {
-    path: path.join(__dirname, "bundledOutputs"),
-    filename: '[name].js',
-  },
-};
+]
