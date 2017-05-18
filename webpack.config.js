@@ -1,5 +1,5 @@
-const HtmlPlugin = require('webpack-html-plugin')
 const join = require('path').join
+const HtmlPlugin = require('webpack-html-plugin')
 
 const stats = {
   chunks: false,
@@ -8,7 +8,7 @@ const stats = {
 
 module.exports = [
   {
-    entry: './lib/js/src',
+    entry: './lib/js/src/index.js',
     output: {
       filename: 'bundle.js',
       path: join(__dirname, 'dist'),
@@ -16,7 +16,7 @@ module.exports = [
     },
     plugins: [
       new HtmlPlugin({
-        template: './index.html',
+        template: './src/index.html',
       }),
     ],
     stats,

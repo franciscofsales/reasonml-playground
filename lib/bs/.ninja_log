@@ -1,11 +1,16 @@
 # ninja log v5
-1	58	0	src/index.mlast	7d92f9d4ef3bb3c8
-0	60	0	src/page.mlast	ca4c4d6bc3fc91e8
-58	72	0	src/index.mlast.d	261f35caa4e61b8f
-60	73	0	src/page.mlast.d	ee4c7cf6812afbfa
-0	40	0	src/page.cmj	cb81ef368bac73eb
-0	40	0	/Users/franciscosales/Development/research/react/examples/reasonml-example/lib/js/src/page.js	cb81ef368bac73eb
-0	40	0	src/page.cmi	cb81ef368bac73eb
-41	65	0	src/index.cmj	1f028fde4d5078a5
-41	65	0	/Users/franciscosales/Development/research/react/examples/reasonml-example/lib/js/src/index.js	1f028fde4d5078a5
-41	65	0	src/index.cmi	1f028fde4d5078a5
+2	69	0	src/index.mlast	7d92f9d4ef3bb3c8
+0	70	0	src/page.mlast	ca4c4d6bc3fc91e8
+70	80	0	src/page.mlast.d	ee4c7cf6812afbfa
+69	80	0	src/index.mlast.d	261f35caa4e61b8f
+1	42	0	src/page.cmj	cb81ef368bac73eb
+1	42	0	/Users/franciscosales/Development/research/react/examples/reasonml-example/lib/js/src/page.js	cb81ef368bac73eb
+1	42	0	src/page.cmi	cb81ef368bac73eb
+42	69	0	src/index.cmj	1f028fde4d5078a5
+42	69	0	/Users/franciscosales/Development/research/react/examples/reasonml-example/lib/js/src/index.js	1f028fde4d5078a5
+42	69	0	src/index.cmi	1f028fde4d5078a5
+0	155	0	src/index.mlast	7d92f9d4ef3bb3c8
+155	170	0	src/index.mlast.d	261f35caa4e61b8f
+1	29	0	src/index.cmj	1f028fde4d5078a5
+1	29	0	/Users/franciscosales/Development/research/react/examples/reasonml-example/lib/js/src/index.js	1f028fde4d5078a5
+1	29	0	src/index.cmi	1f028fde4d5078a5
